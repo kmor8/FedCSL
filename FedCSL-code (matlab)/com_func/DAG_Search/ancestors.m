@@ -38,8 +38,6 @@ function an = ancestors(G, i)
 % You should have received a copy of the GNU General Public License along
 % with Mens X Machina Common Toolbox. If not, see
 % <http://www.gnu.org/licenses/>.
-
-import ancestors;
         
 assert(issparse(G) && size(G, 1) == size(G, 2));
 validateattributes(i, {'numeric'}, {'integer', 'scalar', 'positive', '<=', size(G, 2)});

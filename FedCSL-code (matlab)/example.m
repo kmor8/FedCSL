@@ -1,5 +1,6 @@
 clear;
 clc;
+rng(42); 
 addpath(genpath('com_func/'));
 
 graph_path='./dataset/Child_graph.txt';

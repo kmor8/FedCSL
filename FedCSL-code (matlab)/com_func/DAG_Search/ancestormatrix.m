@@ -48,7 +48,6 @@ function AM = ancestormatrix(G)
 % [1] Giudici,P. and Castelo,R. (2003) Improving Markov chain Monte Carlo
 %     model search for data mining. Machine Learning, 50, 127-158.
 
-import ancestors;
 
 assert(issparse(G) && size(G, 1) == size(G, 2));
 
